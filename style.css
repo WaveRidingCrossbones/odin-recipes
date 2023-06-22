@@ -1,0 +1,41 @@
+p,
+li {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+
+.title {
+    font-size: 40px;
+    text-align: left;
+    background-color: red;
+    color: white;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.main-list,
+.seasoning-list {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main-page,
+.button {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: orange;
+    color: black;
+}
+
+.gif,
+.recipe-image {
+    width: 600px;
+    height: auto;
+}
