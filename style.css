@@ -3,11 +3,15 @@
 }
 
 p,
-li {
+ul,
+ol {
     font-size: 30px;
     font-weight: 500;
     text-align: left;
     line-height: 1.5;
+    margin: 20px;
+    padding: 40px;
+    display: inline-block;
 }
 
 .title {
@@ -19,13 +23,13 @@ li {
     margin: 20px;
     border: 5px solid black;
     padding: 20px;
-    display: block;
+    display: inline-block;
 }
 
 .header {
-    font-size: 80px;
+    font-size: 36px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     background-color: red;
     color: white;
     margin: 20px;
@@ -34,16 +38,14 @@ li {
     display: block;
 }
 
-.header {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: left;
-}
-
 .main-list,
 .seasoning-list {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 700;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 20px;
+    display: block;
 }
 
 .main-page,
