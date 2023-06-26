@@ -4,7 +4,7 @@
 
 p,
 li {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     text-align: left;
     line-height: 1.5;
@@ -16,7 +16,7 @@ li {
     text-align: center;
     background-color: red;
     color: white;
-    margin: 10px;
+    margin: 20px;
     border: 5px solid black;
     padding: 20px;
     display: block;
@@ -28,7 +28,7 @@ li {
     text-align: center;
     background-color: red;
     color: white;
-    margin: 10px;
+    margin: 20px;
     border: 5px solid black;
     padding: 20px;
     display: block;
@@ -52,10 +52,19 @@ li {
     font-weight: 700;
     background-color: orange;
     color: black;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 .gif,
 .recipe-image {
     width: 500px;
     height: auto;
+    display: block;
+    background-color: white;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 2px;
 }
